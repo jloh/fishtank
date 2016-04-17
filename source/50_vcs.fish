@@ -40,3 +40,9 @@ alias gbs 'git branch | perl -ne '"'"'/^\* (?:\(detached from (.*)\)|(.*))/ && p
 alias guall 'eachdir git pull'
 alias gpall 'eachdir git push'
 alias gsall 'eachdir git status'
+
+# SVN shortucts
+abbr -a sd 'svn diff'
+abbr -a sm 'svn commit -m'
+abbr -a st 'svn status'
+abbr -a svu 'svn update .'
