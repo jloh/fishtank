@@ -1,0 +1,26 @@
+# Ignore vim files
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+
+# Fish shell
+# Ignore generated config file
+fishd.*
+# Ignore history
+fish_history
+
+# Ignore local directory
+local/*
+
+# Ignore conf directory
+conf/*
+
+# Don't ignore .gitkeep
+!.gitkeep
