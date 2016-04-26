@@ -9,6 +9,10 @@ shell for OS X, Linux, and the rest of the family.
 ## Installation
 For now, installation is done through cloning this repo into `~/.config/fish` as a full replacement.
 
+```
+mv ~/.config/fish ~/.config/backup-fish; and git clone https://github.com/jloh/fishtank.git ~/.config/fish
+```
+
 ## Customisations
 Customisations are done in two directories:
 
