@@ -10,3 +10,6 @@ end
 for file in (ls $HOME/.config/fish/local/*.fish)
 	source $file
 end
+
+# Add ~/bin to our path
+set PATH ~/bin /usr/local/sbin $PATH
