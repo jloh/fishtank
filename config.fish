@@ -12,4 +12,4 @@ for file in (ls $HOME/.config/fish/local/*.fish)
 end
 
 # Add ~/bin to our path
-set PATH ~/bin /usr/local/sbin $PATH
+set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
