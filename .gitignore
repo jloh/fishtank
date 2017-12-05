@@ -24,3 +24,7 @@ conf/*
 
 # Don't ignore .gitkeep
 !.gitkeep
+
+# Ignore functions dir
+# This is managered by fisherman
+functions
