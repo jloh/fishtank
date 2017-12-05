@@ -1,13 +1,13 @@
 # Git shortcuts
 
 #function ga() { git add "${@:-.}"; } # Add all files by default
-alias ga 'git add'
 
 function gp --description 'Run git push in the current directory'
 	command git push $argv
 end
 
 abbr -a gp 'git push'
+abbr -a ga 'git add'
 abbr -a gco 'git checkout'
 abbr -a gpa 'git push --all'
 abbr -a gu 'git pull'
