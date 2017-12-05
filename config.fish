@@ -12,8 +12,7 @@ for file in (ls $HOME/.config/fish/local/*.fish)
 end
 
 # Add ~/bin to our path
-set PATH ~/bin /usr/local/sbin $PATH
-set -g fish_user_paths "/usr/local/sbin" $fish_user_paths
+set -g fish_user_paths ~/bin /usr/local/sbin $fish_user_paths
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
