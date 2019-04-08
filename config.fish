@@ -14,11 +14,5 @@ end
 # Add ~/bin to our path
 set -g fish_user_paths ~/bin /usr/local/sbin $fish_user_paths
 
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[ -f /Users/jloh/node_modules/tabtab/.completions/serverless.fish ]; and . /Users/jloh/node_modules/tabtab/.completions/serverless.fish
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[ -f /Users/jloh/node_modules/tabtab/.completions/sls.fish ]; and . /Users/jloh/node_modules/tabtab/.completions/sls.fish
 # Jump!
 [ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
