@@ -1,6 +1,5 @@
 edc/bass
 laughedelic/brew-completions
-fisherman/done
-fisherman/humanize_duration
-fisherman/nvm
-fisherman/rvm
+franciscolourenco/done
+fishpkg/fish-humanize-duration
+FabioAntunes/fish-nvm
