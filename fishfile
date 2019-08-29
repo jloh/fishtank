@@ -2,5 +2,5 @@ edc/bass
 laughedelic/brew-completions
 franciscolourenco/done
 fishpkg/fish-humanize-duration
-FabioAntunes/fish-nvm
 ~/.config/fish/pers
+brigand/fast-nvm-fish
