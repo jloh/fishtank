@@ -8,5 +8,5 @@ function ghc -d 'Clones a GitHub repo into the right directory'
   echo "Moving to $base_dir..."
   cd $base/$repo_user
   git clone git@github.com:$repo_user/$repo_repo.git
-  cd $repo_user
+  cd $repo_repo
 end
