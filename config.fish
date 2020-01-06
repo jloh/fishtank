@@ -33,6 +33,7 @@ if status --is-interactive
   abbr --add --global gdc 'git diff --cached'
   abbr --add --global gm 'git commit -m'
   abbr --add --global gms 'git commit -S -m'
+  abbr --add --global gr 'git restore'
   abbr --add --global grs 'git restore --staged'
 
   # Ruby env stuff
