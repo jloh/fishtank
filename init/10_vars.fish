@@ -8,4 +8,4 @@ set -U VISUAL "$EDITOR"
 #set -U LSCOLORS 'gaxxxxxxcxxxxxxxxxxxxx'
 
 # Prevent less from clearing the screen while still showing colors.
-set -U LESS '-XR'
+set -U LESS 'eFRX'
