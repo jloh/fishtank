@@ -6,9 +6,6 @@ for file in (ls $HOME/.config/fish/local/*.fish)
 	source $file
 end
 
-# Jump!
-[ -f /usr/local/share/autojump/autojump.fish ]; and source /usr/local/share/autojump/autojump.fish
-
 # Direnv
 status --is-interactive; and eval (direnv hook fish)
 
@@ -35,8 +32,18 @@ if status --is-interactive
   abbr --add --global gms 'git commit -S -m'
   abbr --add --global gr 'git restore'
   abbr --add --global grs 'git restore --staged'
+  abbr --add --global j 'z'
 
   # Ruby env stuff
   abbr --add --global srbenv 'source (rbenv init -|psub)'
 
+  # Zoxide
+  if type -q zoxide
+    zoxide init fish | source
+  end
+
+  # Prompt
+  if type -q starship
+    starship init fish | source
+  end
 end
