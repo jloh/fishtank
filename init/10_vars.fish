@@ -12,3 +12,6 @@ set -Ux LESS 'eFRX'
 
 # Golang path
 set -Ux GOPATH "$HOME/code/go"
+
+# Starship prompt
+set -Ux STARSHIP_CONFIG "$HOME/.dotfiles/config/starship.toml"
