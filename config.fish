@@ -6,6 +6,18 @@ for file in (ls $HOME/.config/fish/local/*.fish)
 	source $file
 end
 
+# Add things to our path
+# Order is important here, things get added to the _start_
+# so we set `~/bin` at the end so it trumps everything
+# Homebrew
+eval (/usr/local/bin/brew shellenv)
+
+fish_add_path ~/.cargo/bin
+fish_add_path ~/.yarn/bin
+fish_add_path ~/code/go/bin
+fish_add_path ~/.config/yarn/global/node_modules/.bin
+fish_add_path ~/bin
+
 # Direnv
 status --is-interactive; and eval (direnv hook fish)
 
